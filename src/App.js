@@ -11,6 +11,7 @@ function App() {
           My Boba shop Apps
         </p>
       </header>
+      <button>Order</button>
     </div>
   );
 }
