@@ -1,19 +1,21 @@
 
 import './App.css';
+import React from "react"
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import Homepage from "./Homepage.js";
+
 
 function App() {
+  console.debug("App");
+
   return (
-    <div className="App">
-      <header className="BoBa Shop">
-        <h1>Love Boba</h1>
-        <img src="https://www.aheadofthyme.com/wp-content/uploads/2022/06/mango-bubble-tea.jpg" className="App-logo" alt="logo" />
-        <p>
-          My Boba shop Apps
-        </p>
-      </header>
-      <button>Order</button>
-    </div>
+    <Router>
+      <div className="App">
+        <Homepage Route path="/Homepage" component={Homepage} />
+      </div>
+    </Router>
   );
 }
+
 
 export default App;
