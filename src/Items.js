@@ -1,4 +1,4 @@
-// import React from "react";
+import React from "react";
 // import { Link } from "react-router-dom";
 
 // import "./CompanyCard.css";
@@ -27,4 +27,12 @@
 //   );
 // }
 
-// export default CompanyCard;
+function Items(){
+  return (
+    <div>
+      choices of Boba tea
+    </div>
+  )
+}
+
+export default Items;
