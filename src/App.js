@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Homepage />
+        {/* <Homepage /> */}
         <RoutesList />
       </div>
     </Router>
