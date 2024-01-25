@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 // import "./CompanyCard.css";
 
@@ -31,6 +31,7 @@ function Items(){
   return (
     <div>
       choices of Boba tea
+      <Link ClassName="itemDetail" to="/ItemDetail">item detail</Link>
     </div>
   )
 }
