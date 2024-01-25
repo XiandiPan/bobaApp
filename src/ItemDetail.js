@@ -4,9 +4,11 @@ import React from "react";
 function ItemDetail(){
   return (
     <div>
-     <p> Boba ItemDetail</p>
-      <div><img>boba image</img></div>
-
+     <p><h1>Boba ItemDetail</h1>
+      <ul>ice or hot </ul>
+      <ul>topping</ul>
+      <ul>sugar level</ul>
+     </p>
 
     </div>
   )
