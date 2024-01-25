@@ -4,7 +4,10 @@ import React from "react";
 function ItemDetail(){
   return (
     <div>
-      Boba detail
+     <p> Boba ItemDetail</p>
+      <div><img>boba image</img></div>
+
+
     </div>
   )
 }
