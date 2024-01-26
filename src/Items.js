@@ -1,39 +1,52 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Container, Row, Col , Image} from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-// import "./CompanyCard.css";
 
-/** Show limited information about a company
- *
- * Is rendered by CompanyList to show a "card" for each company.
- *
- *
- */
-
-// function items({ name, description,size,sugar,topping}) {
-
-//   return (
-//     <Link className="CompanyCard card" to={`/companies/${handle}`}>
-//       <div className="card-body">
-//         <h6 className="card-title">
-//           {name}
-//           {logoUrl && <img src={logoUrl}
-//             alt={name}
-//             className="float-end ms-5" />}
-//         </h6>
-//         <p><small>{description}</small></p>
-//       </div>
-//     </Link>
-//   );
-// }
 
 function Items(){
+  const componentStyle = {
+    backgroundColor: 'pink',
+    height:'100vh',
+    width:'100%'
+  };
+
+
   return (
     <div>
-      choices of Boba tea
-      <Link ClassName="itemDetail" to="/ItemDetail">item detail</Link>
+      <div style={componentStyle}>
+        <Container>
+          <h1>Pick your favorite Boba here</h1>
+          <Row>
+            <Col>
+              <Image
+                src="https://www.shutterstock.com/image-vector/bubble-milk-tea-boba-vector-600nw-2299991473.jpg"
+                alt="First boba picture"
+                fluid
+              />
+              First, but unordered
+            </Col>
+            <Col>
+              <Image
+                src="https://www.shutterstock.com/image-vector/bubble-milk-tea-boba-vector-600nw-2299991473.jpg"
+                alt="Second boba picture"
+                fluid
+              />
+              Second, but last
+            </Col>
+            <Col>
+              <Image
+                src="https://www.shutterstock.com/image-vector/bubble-milk-tea-boba-vector-600nw-2299991473.jpg"
+                alt="Third boba picture"
+                fluid
+              />
+              Third, but second
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </div>
-  )
+  );
 }
 
 export default Items;
