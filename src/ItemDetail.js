@@ -1,5 +1,8 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col , Image} from 'react-bootstrap';
+
+const BOBA_IMG = "https://www.shutterstock.com/image-vector/bubble-milk-tea-boba-vector-600nw-2299991473.jpg"
+
 
 function ItemDetail() {
 
@@ -13,9 +16,11 @@ function ItemDetail() {
       <div style={componentStyle}>
         <Container>
           <Row>
-            <Col xs>First, but unordered</Col>
-            <Col xs={{ order: 12 }}>Second, but last</Col>
-            <Col xs={{ order: 1 }}>Third, but second</Col>
+            <h1>Pick your favorite Boba here</h1>
+            <Col xs>
+            <Image src='BOBA_IMG' alt="boba picture" fluid />First, but unordered</Col>
+            <Col xs={{ order: 12 }}><Image src='BOBA_IMG' alt="boba picture" fluid />Second, but last</Col>
+            <Col xs={{ order: 1 }}><Image src='BOBA_IMG' alt="boba picture" fluid />vThird, but second</Col>
           </Row>
         </Container>
       </div>
