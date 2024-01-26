@@ -43,6 +43,58 @@ function Items(){
               Third, but second
             </Col>
           </Row>
+          <Row>
+            <Col>
+              <Image
+                src="https://www.shutterstock.com/image-vector/bubble-milk-tea-boba-vector-600nw-2299991473.jpg"
+                alt="First boba picture"
+                fluid
+              />
+              First, but unordered
+            </Col>
+            <Col>
+              <Image
+                src="https://www.shutterstock.com/image-vector/bubble-milk-tea-boba-vector-600nw-2299991473.jpg"
+                alt="Second boba picture"
+                fluid
+              />
+              Second, but last
+            </Col>
+            <Col>
+              <Image
+                src="https://www.shutterstock.com/image-vector/bubble-milk-tea-boba-vector-600nw-2299991473.jpg"
+                alt="Third boba picture"
+                fluid
+              />
+              Third, but second
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <Image
+                src="https://www.shutterstock.com/image-vector/bubble-milk-tea-boba-vector-600nw-2299991473.jpg"
+                alt="First boba picture"
+                fluid
+              />
+              First, but unordered
+            </Col>
+            <Col>
+              <Image
+                src="https://www.shutterstock.com/image-vector/bubble-milk-tea-boba-vector-600nw-2299991473.jpg"
+                alt="Second boba picture"
+                fluid
+              />
+              Second, but last
+            </Col>
+            <Col>
+              <Image
+                src="https://www.shutterstock.com/image-vector/bubble-milk-tea-boba-vector-600nw-2299991473.jpg"
+                alt="Third boba picture"
+                fluid
+              />
+              Third, but second
+            </Col>
+          </Row>
         </Container>
       </div>
     </div>
