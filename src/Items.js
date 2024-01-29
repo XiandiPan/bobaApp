@@ -34,7 +34,7 @@ function Items(){
                 alt="Second boba picture"
                 fluid
               />
-              Second, but last
+             <Link ClassName="orderButton" to="/itemDetail">First</Link>
             </Col>
             <Col>
               <Image
@@ -42,7 +42,7 @@ function Items(){
                 alt="Third boba picture"
                 fluid
               />
-              Third, but second
+              <Link ClassName="orderButton" to="/itemDetail">First</Link>
             </Col>
           </Row>
           <Row>
@@ -52,7 +52,7 @@ function Items(){
                 alt="First boba picture"
                 fluid
               />
-              First, but unordered
+              <Link ClassName="orderButton" to="/itemDetail">First</Link>
             </Col>
             <Col>
               <Image
@@ -60,7 +60,7 @@ function Items(){
                 alt="Second boba picture"
                 fluid
               />
-              Second, but last
+              <Link ClassName="orderButton" to="/itemDetail">First</Link>
             </Col>
             <Col>
               <Image
@@ -68,7 +68,7 @@ function Items(){
                 alt="Third boba picture"
                 fluid
               />
-              Third, but second
+             <Link ClassName="orderButton" to="/itemDetail">First</Link>
             </Col>
           </Row>
           <Row>
@@ -78,7 +78,7 @@ function Items(){
                 alt="First boba picture"
                 fluid
               />
-              First, but unordered
+              <Link ClassName="orderButton" to="/itemDetail">First</Link>
             </Col>
             <Col>
               <Image
@@ -86,7 +86,7 @@ function Items(){
                 alt="Second boba picture"
                 fluid
               />
-              Second, but last
+             <Link ClassName="orderButton" to="/itemDetail">First</Link>
             </Col>
             <Col>
               <Image
@@ -94,9 +94,9 @@ function Items(){
                 alt="Third boba picture"
                 fluid
               />
-              Third, but second
+             <Link ClassName="orderButton" to="/itemDetail">First</Link>
             </Col>
-          </Row>∫
+          </Row>
         </Container>
       </div>
     </div>
