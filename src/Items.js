@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col , Image} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from "react-router-dom";
 
 
 
@@ -24,7 +25,8 @@ function Items(){
                 alt="First boba picture"
                 fluid
               />
-              First, but unordered
+               <Link ClassName="orderButton" to="/itemDetail">First</Link>
+
             </Col>
             <Col>
               <Image
@@ -94,7 +96,7 @@ function Items(){
               />
               Third, but second
             </Col>
-          </Row>
+          </Row>∫
         </Container>
       </div>
     </div>
