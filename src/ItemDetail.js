@@ -10,6 +10,12 @@ function ItemDetail() {
   return (
     <div>
     <h1>Detail of each boba like topping and sugar level</h1>
+    <Image
+                src="https://www.shutterstock.com/image-vector/bubble-milk-tea-boba-vector-600nw-2299991473.jpg"
+                alt="First boba picture"
+                fluid
+              />
+              
     </div>
   );
 }
