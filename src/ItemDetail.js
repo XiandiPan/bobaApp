@@ -15,7 +15,10 @@ function ItemDetail() {
                 alt="First boba picture"
                 fluid
               />
-              
+              <ul>choices
+                <ol>sugar level</ol>
+                <ol>toppings</ol>
+              </ul>
     </div>
   );
 }
