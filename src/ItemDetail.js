@@ -18,6 +18,7 @@ function ItemDetail() {
               <ul>choices
                 <ol>sugar level</ol>
                 <ol>toppings</ol>
+                <ol>size</ol>
               </ul>
     </div>
   );
